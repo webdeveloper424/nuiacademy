@@ -1,0 +1,40 @@
+@media (max-width: 1199px) {
+    .offcanvas.offcanvas-end {
+        width: 100%;
+    }
+
+    header .navbar-nav .nav-item .nav-link {
+        padding: 0px;
+        line-height: 55px;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .desktop-dropdown:hover .dropdown-menu {
+        display: flex;
+    }
+
+    .desktop-dropdown .dropdown-menu.show {
+        display: flex;
+    }
+
+    .mega-menu {
+        left: 50%;
+        transform: translateX(-50%);
+        right: 0;
+        width: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .mega-menu img {
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .desktop-dropdown:hover .dropdown-menu {
+        width: 40vw;
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+}
