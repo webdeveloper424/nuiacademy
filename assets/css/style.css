@@ -28,7 +28,7 @@ a {
 .btn-custom {
     background-color: var(--primary-color);
     border: 1px solid var(--primary-color);
-    color: var(--white);
+    color: var(--white-color);
     padding: 13px 28px;
     font-size: 14px;
 }
@@ -36,7 +36,7 @@ a {
 .btn-custom:hover {
     background-color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
-    color: var(--white);
+    color: var(--white-color);
 }
 
 /* Start Header */
@@ -64,10 +64,16 @@ header .navbar-nav .nav-item .nav-link {
 header .navbar-nav .nav-item .nav-link.btn-menu {
     background-color: var(--primary-color);
     border: 1px solid var(--primary-color);
-    color: var(--white);
+    color: var(--white-color);
     padding: 13px 28px;
     font-size: 14px;
     margin-left: 15px;
+}
+
+header .navbar-nav .nav-item .nav-link.btn-menu:hover {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    color: var(--white-color);
 }
 
 .desktop-dropdown ul li:not(:last-child) {
