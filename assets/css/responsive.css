@@ -38,3 +38,15 @@
         padding: 0px;
     }
 }
+
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+    .swiper-slide {
+        height: 70vh;
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1919px ) {
+    .swiper-slide {
+        height: 70vh;
+    }
+}

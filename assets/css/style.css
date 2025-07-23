@@ -102,6 +102,10 @@ header .navbar-nav .nav-item .nav-link.btn-menu {
     width: 10px;
 }
 
+.desktop-dropdown ul li a.dropdown-item:hover {
+    padding-left: 15px;
+}
+
 .desktop-dropdown .mega-menu {
     border: 1px solid transparent;
     backdrop-filter: blur(7.5px);
@@ -117,8 +121,8 @@ header .navbar-nav .nav-item .nav-link.btn-menu {
     padding: 40px 40px 40px 20px;
 }
 
-.desktop-dropdown a::before,
-.desktop-dropdown a::after {
+.desktop-dropdown a.nav-link::before,
+.desktop-dropdown a.nav-link::after {
     content: "";
     position: absolute;
     background-color: var(--primary-color);
@@ -128,16 +132,16 @@ header .navbar-nav .nav-item .nav-link.btn-menu {
     transition: width 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.desktop-dropdown a::before {
+.desktop-dropdown a.nav-link::before {
     left: 0;
 }
 
-.desktop-dropdown a::after {
+.desktop-dropdown a.nav-link::after {
     right: 0;
 }
 
-.desktop-dropdown a:hover::before,
-.desktop-dropdown a:hover::after {
+.desktop-dropdown a.nav-link:hover::before,
+.desktop-dropdown a.nav-link:hover::after {
     width: 100%;
 }
 
